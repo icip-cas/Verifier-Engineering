@@ -25,11 +25,12 @@ This is a collection of papers and other resources for verifier engineering, whi
 ## A Verifier Engineering Perspective on Post-training Methods
 
 
-🌟 Feel free to submit pull requests to include your work from the perspective of verifier engineering!
 
 
-| Search Structure         | Verifier                          | Feedback Type                   | Task                   |
-|---------------------------|-----------------------------------|----------------------------------|------------------------|
+
+
+|  | Search         | Verify                          | Feedback                   | Task                   |
+|---------------------------|-----------------------------------|----------------------------------|-----------------------------------|------------------------|
 | [STar](https://arxiv.org/abs/2203.14465) <br>  [RFT](https://arxiv.org/abs/2308.01825) <br>  [WizardMath](https://arxiv.org/abs/2308.09583)    | Linear                            | Golden Annotation               | Imitation Learning     | Math       |
 | [CAG](https://arxiv.org/abs/2404.06809)                      | Linear                            | Golden Annotation               | Imitation Learning     | RAG        |
 | [Self-Instruct](https://arxiv.org/abs/2212.10560)            | Linear                     | Rule-based                      | Imitation Learning     | General    |
