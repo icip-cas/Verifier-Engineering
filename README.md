@@ -58,3 +58,17 @@ This is a collection of papers and other resources for verifier engineering, whi
 
 
 
+# Citation
+
+If you find our repo useful in your research, please consider citing:
+
+```
+@article{VerifierEngineering,
+    title={Search, Verify and Feedback: Towards Next Generation Post-training Paradigm of Foundation Models via Verifier Engineering},
+    author={Xinyan Guan, Yanjiang Liu, Xinyu Lu, Boxi Cao, Ben He, Xianpei Han, Le Sun, Jie Lou, Bowen Yu, Yaojie Lu, Hongyu Lin},
+    journal={},
+    url={}
+    year={2024}
+}
+
+```
