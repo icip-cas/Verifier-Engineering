@@ -45,7 +45,7 @@ This is a collection of papers and other resources for verifier engineering, whi
 | [Chain of Preference Optimization](https://arxiv.org/abs/2406.09136) | Tree                     | Language Model                  | Preference Learning    | Reasoning  |
 | [LLAMA-BERRY](https://arxiv.org/abs/2410.02884)              | Tree                              | ORM                             | Preference Learning    | Reasoning  |
 | [Math-Shepherd](https://arxiv.org/abs/2312.08935)            | Linear                            | Golden Annotation <br>  Rule-based  | Reinforcement Learning | Math       |
-| [Rltf](https://arxiv.org/abs/2307.04349) <br>  [PPOCoder](https://arxiv.org/abs/2301.13816)           | Linear                            | Code Interpreter                | Reinforcement Learning | Code       |
+| [RLTF](https://arxiv.org/abs/2307.04349) <br>  [PPOCoder](https://arxiv.org/abs/2301.13816)           | Linear                            | Code Interpreter                | Reinforcement Learning | Code       |
 | [RLAIF](https://openreview.net/forum?id=AAxIs3D2ZZ)                    | Linear                            | Language Model                  | Reinforcement Learning | General    |
 | [SIRLC](https://arxiv.org/abs/2305.14483)                    | Linear                            | Language Model                  | Reinforcement Learning | Reasoning  |
 | [RLFH](https://arxiv.org/abs/2406.12221)                     | Linear                            | Language Model                  | Reinforcement Learning | Knowledge  |
