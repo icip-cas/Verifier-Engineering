@@ -23,38 +23,43 @@ This is a collection of papers and other resources for verifier engineering, whi
 
 ## A Verifier Engineering Perspective on Post-training Methods
 
-|                           | **Search**            | **Verify**                              | **Feedback**         | **Task**              |
-|---------------------------|-----------------------|-----------------------------------------|----------------------|-----------------------|
-| STar <br> RFT            | Linear               | Golden Annotation                       | Imitation Learning   | Math                 |
-| CAG                       | Linear               | Golden Annotation                       | Imitation Learning   | RAG                  |
-| Self-Instruct             | Linear               | Rule-based                              | Imitation Learning   | General              |
-| Code Alpaca <br> WizardCoder | Linear            | Rule-based                              | Imitation Learning   | Code                 |
-| ILF-Code                  | Linear               | Rule-based & Code interpreter          | Imitation Learning   | Code                 |
-| RAFT <br> RRHF            | Linear               | ORM                                     | Imitation Learning   | General              |
-| SSO                       | Linear               | Rule-based                              | Preference Learning  | Alignment            |
-| CodeUltraFeedback         | Linear               | Language Model                          | Preference Learning  | Code                 |
-| Self-Rewarding            | Linear               | Language Model                          | Preference Learning  | Alignment            |
-| StructRAG                 | Linear               | Language Model                          | Preference Learning  | RAG                  |
-| LLAMA-BERRY               | Tree                 | ORM                                     | Preference Learning  | Reasoning            |
-| Math-Shepherd             | Linear               | Golden Annotation & Rule-based          | Reinforcement Learning | Math              |
-| RLTF <br> PPOCoder        | Linear               | Code Interpreter                        | Reinforcement Learning | Code          |
-| RLAIF                     | Linear               | Language Model                          | Reinforcement Learning | General          |
-| SIRLC                     | Linear               | Language Model                          | Reinforcement Learning | Reasoning          |
-| RLFH                      | Linear               | Language Model                          | Reinforcement Learning | Knowledge          |
-| RLHF                      | Linear               | ORM                                     | Reinforcement Learning | Alignment          |
-| Quark                     | Linear               | Tool                                    | Reinforcement Learning | Alignment          |
-| ReST-MCTS                 | Tree                 | Language Model                          | Reinforcement Learning | Math                 |
-| CRITIC                    | Linear               | Code Interpreter & Tool & Search Engine | Verifier-Aware       | Math, Code & Knowledge & General |
-| Self-Debugging            | Linear               | Code Interpreter                        | Verifier-Aware       | Code                 |
-| Self-Refine               | Linear               | Language Model                          | Verifier-Aware       | Alignment            |
-| ReAct                     | Linear               | Search Engine                           | Verifier-Aware       | Knowledge            |
-| Constrative decoding      | Linear               | Language Model                          | Verifier-Guided      | General              |
-| Chain-of-verfication      | Linear               | Language Model                          | Verifier-Guided      | Knowledge            |
-| Inverse Value Learning    | Linear               | Language Model                          | Verifier-Guided      | General              |
-| PRM                       | Linear               | PRM                                     | Verifier-Guided      | Math                 |
-| KGR                       | Linear               | Knowledge Graph                         | Verifier-Guided      | Knowledge            |
-| UoT                       | Tree                 | Language Model                          | Verifier-Guided      | General              |
-| ToT                       | Tree                 | Language Model                          | Verifier-Guided      | Reasoning            |
+
+
+
+| Search Structure         | Verifier                          | Feedback Type                   | Task                   |
+|---------------------------|-----------------------------------|----------------------------------|------------------------|
+| [STar](https://arxiv.org/abs/2203.14465) <br>  [RFT](https://arxiv.org/abs/2308.01825) <br>  [WizardMath](https://arxiv.org/abs/2308.09583)    | Linear                            | Golden Annotation               | Imitation Learning     | Math       |
+| [CAG](https://arxiv.org/abs/2404.06809)                      | Linear                            | Golden Annotation               | Imitation Learning     | RAG        |
+| [Self-Instruct](https://arxiv.org/abs/2212.10560)            | Linear                     | Rule-based                      | Imitation Learning     | General    |
+| [Code Alpaca](https://github.com/sahil280114/codealpaca) <br>  [WizardCoder](https://arxiv.org/abs/2306.08568) | Linear                            | Rule-based                      | Imitation Learning     | Code       |
+| [ILF-Code](https://arxiv.org/abs/2303.16749)                 | Linear                      | Code interpreter <br>  Human        | Imitation Learning     | Code       |
+| [RAFT](https://arxiv.org/abs/2403.10131) <br>  [RRHF](https://arxiv.org/abs/2304.05302)                | Linear                            | ORM                             | Imitation Learning     | General    |
+| [SSO](https://arxiv.org/abs/2410.17131)                      | Linear                            | Rule-based                      | Preference Learning    | Alignment  |
+| [CodeUltraFeedback](https://arxiv.org/abs/2403.09032)        | Linear                            | Language Model                  | Preference Learning    | Code       |
+| [Self-Rewarding](https://arxiv.org/abs/2401.10020)           | Linear                            | Language Model                  | Preference Learning    | Alignment  |
+| [StructRAG](https://arxiv.org/abs/2410.08815)                | Linear                            | Language Model                  | Preference Learning    | RAG        |
+| [MCTS-DPO](https://arxiv.org/html/2405.00451v2)                 | Tree                              | Language Model                  | Preference Learning    | Math       |
+| [Chain of Preference Optimization](https://arxiv.org/abs/2406.09136) | Tree                     | Language Model                  | Preference Learning    | Reasoning  |
+| [LLAMA-BERRY](https://arxiv.org/abs/2410.02884)              | Tree                              | ORM                             | Preference Learning    | Reasoning  |
+| [Math-Shepherd](https://arxiv.org/abs/2312.08935)            | Linear                            | Golden Annotation <br>  Rule-based  | Reinforcement Learning | Math       |
+| [Rltf](https://arxiv.org/abs/2307.04349) <br>  [PPOCoder](https://arxiv.org/abs/2301.13816)           | Linear                            | Code Interpreter                | Reinforcement Learning | Code       |
+| [RLAIF](https://openreview.net/forum?id=AAxIs3D2ZZ)                    | Linear                            | Language Model                  | Reinforcement Learning | General    |
+| [SIRLC](https://arxiv.org/abs/2305.14483)                    | Linear                            | Language Model                  | Reinforcement Learning | Reasoning  |
+| [RLFH](https://arxiv.org/abs/2406.12221)                     | Linear                            | Language Model                  | Reinforcement Learning | Knowledge  |
+| [RLHF](https://arxiv.org/abs/2203.02155)                     | Linear                            | ORM                             | Reinforcement Learning | Alignment  |
+| [Quark](https://arxiv.org/abs/2205.13636)                   | Linear                            | Tool                            | Reinforcement Learning | Alignment  |
+| [ReST-MCTS](https://arxiv.org/abs/2406.03816)               | Tree                              | Language Model                  | Reinforcement Learning | Math       |
+| [CRITIC](https://arxiv.org/abs/2305.11738)                   | Linear                            | Code Interpreter <br>  Tool <br>  Search Engine | Verifier-Aware  | Math <br>  Code <br>  Knowledge <br>  General |
+| [Self-Debug](https://arxiv.org/abs/2304.05128)           | Linear                            | Code Interpreter                | Verifier-Aware         | Code       |
+| [Self-Refine](https://arxiv.org/abs/2303.17651)              | Linear                            | Language Model                  | Verifier-Aware         | Alignment  |
+| [ReAct](https://arxiv.org/abs/2210.03629)                    | Linear                            | Search Engine                   | Verifier-Aware         | Knowledge  |
+| [Constrative Decoding](https://arxiv.org/abs/2210.15097)     | Linear                            | Language Model                  | Verifier-Guided        | General    |
+| [Chain-of-Verification](https://arxiv.org/abs/2309.11495)    | Linear                            | Language Model                  | Verifier-Guided        | Knowledge  |
+| [Inverse Value Learning](https://arxiv.org/abs/2410.21027)   | Linear                            | Language Model                  | Verifier-Guided        | General    |
+| [PRM800k](https://arxiv.org/abs/2305.20050)                  | Linear                            | PRM                             | Verifier-Guided        | Math       |
+| [KGR](https://arxiv.org/abs/2311.13314)                      | Linear                            | Knowledge Graph                 | Verifier-Guided        | Knowledge  |
+| [UoT](https://arxiv.org/abs/2402.03271)                      | Tree                              | Language Model                  | Verifier-Guided        | General    |
+| [ToT](https://arxiv.org/abs/2305.10601)                      | Tree                              | Language Model                  | Verifier-Guided        | Reasoning  |
 
 
 
