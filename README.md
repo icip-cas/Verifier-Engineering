@@ -1,6 +1,7 @@
 # Search, Verify and Feedback: Towards Next Generation Post-training Paradigm of Foundation Models via Verifier Engineering
 
-![Overview](images/framework.svg)
+
+![Overview](images/framework.pdf)
 
 
 This is a collection of papers and other resources for verifier engineering, which corresponds to the paper [Search, Verify and Feedback: Towards Next Generation Post-training Paradigm of Foundation Models via Verifier Engineering](paper/ve.pdf). We will update the paper content and this repo regularly, and we very much welcome suggestions of any kind.
@@ -20,7 +21,7 @@ This is a collection of papers and other resources for verifier engineering, whi
 | Knowledge Graph       | Text                          | Thought Step/Full Trajectory         | Program Based         | No                 |
 
 
-## A Verifier Engineering Perspective on Post-Training Methods
+## A Verifier Engineering Perspective on Post-training Methods
 
 |                           | **Search**            | **Verify**                              | **Feedback**         | **Task**              |
 |---------------------------|-----------------------|-----------------------------------------|----------------------|-----------------------|
