@@ -5,8 +5,7 @@
 
 This is a collection of papers and other resources for verifier engineering, which corresponds to the paper [Search, Verify and Feedback: Towards Next Generation Post-training Paradigm of Foundation Models via Verifier Engineering](paper/ve.pdf). We will update the paper content and this repo regularly, and we very much welcome suggestions of any kind.
 
-## Comparison of feature engineering, data engineering and verifier engineering
-
+## Overview of Common Verifiers
 
 | **Verifier Type**    | **Verification Form**           | **Verify Granularity**               | **Verifier Source**   | **Extra Training** |
 |-----------------------|---------------------------------|---------------------------------------|-----------------------|--------------------|
@@ -21,8 +20,7 @@ This is a collection of papers and other resources for verifier engineering, whi
 | Knowledge Graph       | Text                          | Thought Step/Full Trajectory         | Program Based         | No                 |
 
 
-## A comprehensive overview of the verifier engineering landscape by categorizing existing post-training approaches into three stages
-
+## A Verifier Engineering Perspective on Post-Training Methods
 
 |                           | **Search**            | **Verify**                              | **Feedback**         | **Task**              |
 |---------------------------|-----------------------|-----------------------------------------|----------------------|-----------------------|
