@@ -6,6 +6,8 @@
 
 This is a collection of papers and other resources for verifier engineering, which corresponds to the paper [Search, Verify and Feedback: Towards Next Generation Post-training Paradigm of Foundation Models via Verifier Engineering](paper/ve.pdf). We will update the paper content and this repo regularly, and we very much welcome suggestions of any kind.
 
+🌟 Feel free to submit pull requests to include your work from the perspective of verifier engineering!
+
 ## Overview of Common Verifiers
 
 | **Verifier Type**    | **Verification Form**           | **Verify Granularity**               | **Verifier Source**   | **Extra Training** |
