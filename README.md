@@ -56,7 +56,7 @@ This is a collection of papers and other resources for verifier engineering, whi
 | [Constrative Decoding](https://arxiv.org/abs/2210.15097)     | Linear                            | Language Model                  | Verifier-Guided        | General    |
 | [Chain-of-Verification](https://arxiv.org/abs/2309.11495)    | Linear                            | Language Model                  | Verifier-Guided        | Knowledge  |
 | [Inverse Value Learning](https://arxiv.org/abs/2410.21027)   | Linear                            | Language Model                  | Verifier-Guided        | General    |
-| [PRM800k](https://arxiv.org/abs/2305.20050)                  | Linear                            | PRM                             | Verifier-Guided        | Math       |
+| [PRM](https://arxiv.org/abs/2305.20050)                  | Linear                            | PRM                             | Verifier-Guided        | Math       |
 | [KGR](https://arxiv.org/abs/2311.13314)                      | Linear                            | Knowledge Graph                 | Verifier-Guided        | Knowledge  |
 | [UoT](https://arxiv.org/abs/2402.03271)                      | Tree                              | Language Model                  | Verifier-Guided        | General    |
 | [ToT](https://arxiv.org/abs/2305.10601)                      | Tree                              | Language Model                  | Verifier-Guided        | Reasoning  |
