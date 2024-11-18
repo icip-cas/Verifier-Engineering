@@ -25,7 +25,7 @@ This is a collection of papers and other resources for verifier engineering, whi
 ## A Verifier Engineering Perspective on Post-training Methods
 
 
-
+🌟 Feel free to submit pull requests to include your work from the perspective of verifier engineering!
 
 
 
