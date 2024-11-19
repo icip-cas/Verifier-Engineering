@@ -75,8 +75,8 @@ If you find our repo useful in your research, please consider citing:
 @article{VerifierEngineering,
     title={Search, Verify and Feedback: Towards Next Generation Post-training Paradigm of Foundation Models via Verifier Engineering},
     author={Xinyan Guan, Yanjiang Liu, Xinyu Lu, Boxi Cao, Ben He, Xianpei Han, Le Sun, Jie Lou, Bowen Yu, Yaojie Lu, Hongyu Lin},
-    journal={},
-    url={}
+    journal={arXiv preprint arXiv:2411.11504},
+    url={https://arxiv.org/abs/2411.11504}
     year={2024}
 }
 
