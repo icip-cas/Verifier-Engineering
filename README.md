@@ -85,3 +85,8 @@ If you find our repo useful in your research, please consider citing:
 }
 
 ```
+
+
+## Star History
+
+[![Star History Chart](https://api.star-history.com/svg?repos=icip-cas/Verifier-Engineering&type=Date)](https://star-history.com/#icip-cas/Verifier-Engineering&Date)
