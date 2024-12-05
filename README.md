@@ -67,6 +67,7 @@ This is a collection of papers and other resources for verifier engineering, whi
 | [KGR](https://arxiv.org/abs/2311.13314)                      | Linear                            | Knowledge Graph                 | Verifier-Guided        | Knowledge  |
 | [UoT](https://arxiv.org/abs/2402.03271)                      | Tree                              | Language Model                  | Verifier-Guided        | General    |
 | [ToT](https://arxiv.org/abs/2305.10601)                      | Tree                              | Language Model                  | Verifier-Guided        | Reasoning  |
+| [RLVR](https://arxiv.org/pdf/2411.15124)                | Linear                            | Binary Verifier                       | Reinforcement Learning | General    |
 
 
 
