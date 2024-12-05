@@ -55,6 +55,7 @@ This is a collection of papers and other resources for verifier engineering, whi
 | [RLFH](https://arxiv.org/abs/2406.12221)                     | Linear                            | Language Model                  | Reinforcement Learning | Knowledge  |
 | [RLHF](https://arxiv.org/abs/2203.02155)                     | Linear                            | ORM                             | Reinforcement Learning | Alignment  |
 | [Quark](https://arxiv.org/abs/2205.13636)                   | Linear                            | Tool                            | Reinforcement Learning | Alignment  |
+| [RLVR](https://arxiv.org/pdf/2411.15124)                | Linear                            | Binary Verifier                       | Reinforcement Learning | General    |
 | [ReST-MCTS](https://arxiv.org/abs/2406.03816)               | Tree                              | Language Model                  | Reinforcement Learning | Math       |
 | [CRITIC](https://arxiv.org/abs/2305.11738)                   | Linear                            | Code Interpreter <br>  Tool <br>  Search Engine | Verifier-Aware  | Math <br>  Code <br>  Knowledge <br>  General |
 | [Self-Debug](https://arxiv.org/abs/2304.05128)           | Linear                            | Code Interpreter                | Verifier-Aware         | Code       |
@@ -67,8 +68,6 @@ This is a collection of papers and other resources for verifier engineering, whi
 | [KGR](https://arxiv.org/abs/2311.13314)                      | Linear                            | Knowledge Graph                 | Verifier-Guided        | Knowledge  |
 | [UoT](https://arxiv.org/abs/2402.03271)                      | Tree                              | Language Model                  | Verifier-Guided        | General    |
 | [ToT](https://arxiv.org/abs/2305.10601)                      | Tree                              | Language Model                  | Verifier-Guided        | Reasoning  |
-| [RLVR](https://arxiv.org/pdf/2411.15124)                | Linear                            | Binary Verifier                       | Reinforcement Learning | General    |
-
 
 
 
